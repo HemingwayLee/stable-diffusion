@@ -1,4 +1,13 @@
 # Stable Diffusion
+
+## Run by docker
+```
+docker build -t mystblediff .
+docker run -it --rm -v $(pwd):/home/proj/ mystblediff
+```
+
+* download checkpoint from [huggingface](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original)
+
 *Stable Diffusion was made possible thanks to a collaboration with [Stability AI](https://stability.ai/) and [Runway](https://runwayml.com/) and builds upon our previous work:*
 
 [**High-Resolution Image Synthesis with Latent Diffusion Models**](https://ommer-lab.com/research/latent-diffusion-models/)<br/>
